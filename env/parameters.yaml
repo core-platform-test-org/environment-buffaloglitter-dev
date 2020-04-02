@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:buffaloglitter/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:buffaloglitter/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:buffaloglitter/prow:hmacToken
+segmentWriteKey: vault:buffaloglitter:segmentWriteKey
